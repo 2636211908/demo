@@ -4,8 +4,15 @@ import { RouterView } from 'vue-router'
 
 <template>
   <RouterView />
+  <div>
+    123456
+  </div>
 </template>
 
-<style scoped>
-
+<style scoped sass>
+div{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
 </style>
